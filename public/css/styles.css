@@ -1,0 +1,208 @@
+@font-face {
+	font-family: 'Noto Sans', 'Noto Sans KR', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+
+html, body, #root {
+	font-family: 'Noto Sans', 'Noto Sans KR', sans-serif;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+.app-body {
+	height:100%;
+}
+
+#customNavbar {
+/*	border-bottom:1px solid lightgray;*/
+	background-color:#545E75;
+	color:white;
+	height: 50px;
+}
+
+#customSidebar {
+	position: fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	overflow-x:hidden;
+	height:100%;
+	width: 60px;
+	background-color:#545E75;
+	padding-top:55px;
+}
+
+.content {
+	margin-top:50px;
+	margin-left:60px;
+}
+
+.search-bar {
+	height: 33px;
+	width: 500px;
+	margin-left: 300px;
+	font-size:0.8em;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.centered-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.search-caption {
+/*	border-bottom: 1px solid lightgray;*/
+	color:grey;
+	margin-bottom: 0.5em;
+	font-weight:700;
+	font-size:1.1em;
+}
+
+
+.search-icon {
+	width:40px;
+	height: auto;
+	display: inline-block;
+	margin-right:0.8em;
+}
+
+.search-item {
+	margin-bottom: 1em;
+	display: inline-block;
+}
+
+.search-item :nth-child(1) {
+	color: #0C43B7;
+	font-weight:600;
+	font-size: 1.1em;
+}
+
+.search-item :hover {
+	cursor:pointer;
+}		
+
+.search-item :nth-child(2) {
+	font-size:0.9em;
+	color: darkgray;
+}
+
+.search-more {
+	font-size:0.9em;
+	color:#0c43b7;
+	margin-bottom:5px;
+}
+
+.search-more:hover {
+	cursor: pointer;
+}
+
+.search-filters .button {
+	width:100px;
+	margin-left : 1em;
+	font-size:0.9em;
+
+}
+
+.search-filters .button :nth-child(2) {
+	color:grey;
+	margin-left:0.5em;
+}
+
+.box {
+	padding-top:0;
+	padding-bottom:0;
+	padding-left:10;
+	width:1200px;
+	background-color:#fafafa;
+}
+
+.search-keyword span {
+	color:#0c43b7;
+}
+
+.search-keyword span:hover {
+	cursor:pointer;
+}
+
+.dots {
+	width:15px;
+	height:auto;
+	display: inline-block;
+	margin-left:0.2em;
+}
+
+.dots :hover {
+	cursor:pointer;
+}
+
+.search-arrow-move {
+	margin-left:0.5em;
+	border:1px solid lightgray;
+	padding-left:5px;
+	padding-right:5px;
+	border-radius:10px;
+}
+
+.search-arrow-move:hover {
+	cursor: pointer;
+	background-color:grey;
+	color:white;
+}
+
+.search-preview {
+/*	visibility:hidden;*/
+	position:fixed;
+	width:500px;
+	right:0;
+	top:30%;
+	border:1px solid lightgray;
+}
+
+.search-item-caption {
+	color: grey;
+	font-size:15px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid lightgray;
+}
+
+.search-brief-card {
+	margin-top:10px;
+	margin-bottom:20px;
+	padding:10px;
+	color: black;
+	border:1px solid grey;
+	border-radius:10px;
+	min-height:40px;
+	vertical-align:middle;
+}
+
+.search-brief-card .search-brief-value {
+	color:blue;
+}
+
+.search-box {
+	width:72%;
+	margin:auto;
+	padding-top:10px;
+}
+
+.search-setting {
+	width:25px;
+	height:auto;
+	margin-left:20px;
+}
