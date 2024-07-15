@@ -14,7 +14,6 @@ function SearchPage() {
 					<Button text="규정" />
 					<Button text="업무자료"/>
 					<img className="search-setting is-clickable" src={`${process.env.PUBLIC_URL}/assets/search-setting.png`} />
-
 				</div>
 				<div className=''>
 					<div className="search-keyword">
@@ -26,8 +25,10 @@ function SearchPage() {
 				</div>
 				<div className='my-3 border-bottom'>
 					<SearchCaption text="전자문서" />
+					<SearchResultItem icon="document-color" caption="전자문서" title="[문서제목]" description="[문서번호] /  [결재일자] / [기안자(작성자)] / [내용 썸네일, 비공개문서일 경우 X]" />
 					<SearchResultItem icon="document-color" caption="전자문서" title="여름철 복장 간소화 계획 알림" description="인사혁신실-4115 /  `24.6.19 / 노정인 / 1. 인사혁신실-0000 관련입니다. 2. 위 관련 복장을 간소화할 예정이오니..." />
 					<SearchResultItem icon="document-color" caption="전자문서" title="2024년도 감사 착안사항 공모 심사결과 알림" description="감사실-415, `24.6.16, 노정인" />
+					<SearchResultItem icon="document-color" caption="전자문서" title="2024년도 필수교육 수강 요청" description="인사혁신실-4115 / `24.6.16 / 노정인" />
 					<SearchResultItem icon="document-color" caption="전자문서" title="2024년도 필수교육 수강 요청" description="인사혁신실-4115, `24.6.16, 노정인" />
 					<SearchMore caption="전자문서"/>
 				</div>
@@ -57,7 +58,7 @@ function SearchPage() {
 				</div>
 				<div className=' my-3 border-bottom'>
 					<SearchCaption text="업무자료" />
-
+					<SearchResultItem icon="work-color" caption="업무자료" title="[자료명]" description="[부서명] / [업무단위명]" />
 					<SearchResultItem icon="work-color" caption="업무자료" title="2024 부서장 경영계약과제" description="기획조정실 / (자료1) 부서장 경영계약과제 추진 계획.zip" />
 					<SearchResultItem icon="work-color" caption="업무자료" title="2024 부서장 경영계약과제" description="기획조정실 / (자료1) 부서장 경영계약과제 추진 계획.zip" />
 				</div>	

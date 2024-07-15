@@ -21,7 +21,6 @@ function App() {
               {/* <Route path="/" exact component={Home} /> */}
               <Route path="/workdata/*" element={<WorkdataPage/>} />
               <Route path="/search" element={<SearchPage/>} />
-
             </Routes>
           </main>
         </div>

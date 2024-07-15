@@ -1,11 +1,23 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function SideBar() {
+	const linkStyle = {
+		marginTop: '1em',
+		textAlign: 'center'
+	};
+
 	return (
 		<aside id="customSidebar" className="menu">
 			<ul>
 				<li className="centered">
 					<Icon name="home"/>
+				</li>
+				<li style={linkStyle}>
+					<Link to="/search" style={{color:'white'}}>검색</Link>
+				</li>
+				<li style={linkStyle}>
+					<Link to="/workdata" style={{color:'white'}}>업무자료</Link>
 				</li>
 			</ul>
 			
