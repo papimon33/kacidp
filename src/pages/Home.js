@@ -19,7 +19,7 @@ function Home({color, setColor, setTextColor}) {
 
 	return (
 		<div style={{paddingLeft:'2em'}}>
-			<ColorPicker onChange={onColorChange} value="#1d4d69"/>
+			<ColorPicker onChange={onColorChange} />
 			<div id="colorstring">{color}</div>
 			<div>
 				<input type="checkbox" id="chk" onChange={onTextColorChange}/>
