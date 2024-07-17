@@ -15,7 +15,7 @@ function Header({color, textColor}) {
 					</div>
 				</div>
 				<div className="navbar-end">
-					<a className="navbar-item" style={{color:textColor}}>김또깡</a>
+					<a className="navbar-item" style={{color:textColor}}>한로로</a>
 				</div>
 			</div>
 		</nav>
