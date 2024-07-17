@@ -19,7 +19,7 @@ html, body, #root {
 
 #customNavbar {
 /*	border-bottom:1px solid lightgray;*/
-	background-color:#545E75;
+	background-color:#1d4d69;
 	color:white;
 	height: 50px;
 }
@@ -32,7 +32,7 @@ html, body, #root {
 	overflow-x:hidden;
 	height:100%;
 	width: 60px;
-	background-color:#545E75;
+	background-color:#1d4d69;
 	padding-top:55px;
 }
 

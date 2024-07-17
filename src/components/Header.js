@@ -1,11 +1,12 @@
 import React from 'react';
 
-function Header() {
+function Header({color, textColor}) {
+
 	return (
-		<nav id="customNavbar" className="navbar is-fixed-top">
+		<nav id="customNavbar" className="navbar is-fixed-top" style={{backgroundColor:color}}>
 			<div className="navbar-brand">
 				{/* 데이터플랫폼 이름 */}
-				<a className="navbar-item is-size-5 has-text-weight-bold has-text-white">IDPORTAL</a>
+				<div className="navbar-item is-size-5 has-text-weight-bold" style={{color:textColor}}>IDPORTAL</div>
 			</div>
 			<div className="navbar-menu">
 				<div className="navbar-start pl-6">
@@ -14,7 +15,7 @@ function Header() {
 					</div>
 				</div>
 				<div className="navbar-end">
-					<a className="navbar-item">data</a>
+					<a className="navbar-item" style={{color:textColor}}>김또깡</a>
 				</div>
 			</div>
 		</nav>
