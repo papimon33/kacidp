@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/kacidp/static/css/main.b1b2aa69.css",
-    "main.js": "/kacidp/static/js/main.d759df5a.js",
+    "main.css": "/kacidp/static/css/main.e5da8643.css",
+    "main.js": "/kacidp/static/js/main.a4c20411.js",
     "static/js/453.99c8eeaf.chunk.js": "/kacidp/static/js/453.99c8eeaf.chunk.js",
+    "static/media/alpha.svg": "/kacidp/static/media/alpha.f85a2c594d34da3af9f9.svg",
     "index.html": "/kacidp/index.html",
-    "main.b1b2aa69.css.map": "/kacidp/static/css/main.b1b2aa69.css.map",
-    "main.d759df5a.js.map": "/kacidp/static/js/main.d759df5a.js.map",
+    "main.e5da8643.css.map": "/kacidp/static/css/main.e5da8643.css.map",
+    "main.a4c20411.js.map": "/kacidp/static/js/main.a4c20411.js.map",
     "453.99c8eeaf.chunk.js.map": "/kacidp/static/js/453.99c8eeaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1b2aa69.css",
-    "static/js/main.d759df5a.js"
+    "static/css/main.e5da8643.css",
+    "static/js/main.a4c20411.js"
   ]
 }
