@@ -7,6 +7,7 @@ import Sidebar from './components/Sidebar'
 // 추가 컴포넌트 import...
 import WorkdataPage from './pages/Workdatapage';
 import SearchPage from './pages/SearchPage';
+import SearchPage2 from './pages/SearchPage2';
 import Home from './pages/Home';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
               <Route path="/" exact element={<Home color={color} setColor={setColor} setTextColor={setTextColor}/>} /> 
               <Route path="/workdata/*" element={<WorkdataPage/>} />
               <Route path="/search" element={<SearchPage/>} />
+              <Route path="/search2" element={<SearchPage2/>} />
             </Routes>
           </main>
         </div>

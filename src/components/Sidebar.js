@@ -16,8 +16,12 @@ function SideBar({color, textColor}) {
 				<li style={linkStyle}>
 					<Link to="/" style={{color:textColor}}>홈</Link>
 				</li>
+				
 				<li style={linkStyle}>
 					<Link to="/search" style={{color:textColor}}>검색</Link>
+				</li>
+				<li style={linkStyle}>
+					<Link to="/search2" style={{color:textColor}}>검색2</Link>
 				</li>
 				<li style={linkStyle}>
 					<Link to="/workdata" style={{color:textColor}}>업무자료</Link>

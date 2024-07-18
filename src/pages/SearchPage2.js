@@ -4,7 +4,7 @@ function SearchPage() {
 	return (
 		<div className="container">
 			<div className="search-box">
-				{/*<div className="my-5 search-filters">
+				<div className="my-5 search-filters">
 					<Button text="전체" selected="{true}"/>
 					<Button text="전자문서" />
 					<Button text="데이터검색" />
@@ -14,8 +14,7 @@ function SearchPage() {
 					<Button text="규정" />
 					<Button text="업무자료"/>
 					<img className="search-setting is-clickable" src={`${process.env.PUBLIC_URL}/assets/search-setting.png`} />
-				</div>*/}
-				<Tabs/>
+				</div>
 				<div className=''>
 					<div className="search-keyword">
 						<span>어제 김포공항 여객 수</span>로 검색된 내용입니다. <span>어제 김포공항 ㅇ객수</span>로 다시검색
@@ -75,26 +74,6 @@ function Button({text, selected}) {
 			<span>{text}</span>
 			<span>5</span>
 		</button>
-	)
-}
-
-function Tabs() {
-	return (
-		<div class="tabs">
-		  <ul style={{fontSize:'0.95em'}}>
-		    <li class="is-active"><a><b>전체</b>{'\u00A0'}3000</a></li>
-		    <li><a><b>전자문서</b>{'\u00A0'} 535</a></li>
-		    <li><a><b>데이터검색</b>{'\u00A0'}5</a></li>
-		    <li><a><b>레포트</b>{'\u00A0'}5</a></li>
-		    <li><a><b>내부메일</b>{'\u00A0'}5</a></li>
-		    <li><a><b>게시판</b>{'\u00A0'}5</a></li>
-		    <li><a><b>규정</b>{'\u00A0'}5</a></li>
-		    <li><a><b>업무자료</b>{'\u00A0'}5</a></li>
-		    <li>
-				<img className="search-setting is-clickable" src={`${process.env.PUBLIC_URL}/assets/search-setting.png`} />
-		    </li>
-		  </ul>
-		</div>
 	)
 }
 
