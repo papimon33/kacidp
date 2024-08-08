@@ -9,6 +9,8 @@ import WorkdataPage from './pages/Workdatapage';
 import SearchPage from './pages/SearchPage';
 import SearchPage2 from './pages/SearchPage2';
 import Home from './pages/Home';
+import Form from './pages/Form';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   const [color, setColor] = useState('#1d4d69');
@@ -26,6 +28,7 @@ function App() {
               <Route path="/workdata/*" element={<WorkdataPage/>} />
               <Route path="/search" element={<SearchPage/>} />
               <Route path="/search2" element={<SearchPage2/>} />
+              <Route path="/form" element={<Form/>} />
             </Routes>
           </main>
         </div>

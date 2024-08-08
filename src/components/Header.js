@@ -31,7 +31,8 @@ function SearchBox({searchActivated}) {
 		position:'fixed',
 		border: '1px solid black',
 		backgroundColor:'black',
-		left:500
+		left:500,
+		
 	}
 
 	return (

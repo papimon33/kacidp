@@ -1,0 +1,16 @@
+.form input[type="text"] {
+	height: 45px;
+}
+
+.form .field {
+	margin-bottom:20px;
+}
+
+.field label {
+	fontSize:"0.9em",
+}
+
+.form {
+	width:90%;
+	margin:0 auto;
+}

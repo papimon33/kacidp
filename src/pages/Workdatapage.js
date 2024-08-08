@@ -1,7 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 import WorkDataSearch from './WorkDataSearch';
+import WorkdataRequesting from './WorkdataRequesting';
+import Form from './Form';
 import { Link } from 'react-router-dom';
+
 
 function WorkdataPage() {
 	return (
@@ -27,7 +30,8 @@ function WorkdataPage() {
 					<Routes>
 						<Route path="/list" element={<WorkDataSearch/>}/>
 						<Route path="/mywork" element={<WorkDataSearch/>}/>
-						<Route path="/request" element={<WorkDataSearch/>}/>
+						<Route path="/request" element={<WorkdataRequesting/>}/>
+						<Route path="/request/new" element={<Form/>}/>
 						<Route path="/todo" element={<WorkDataSearch/>}/>
 					</Routes>
 				</div>
